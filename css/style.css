@@ -49,6 +49,7 @@ ul {
 }
 
 .header {
+  background-color: var(--main-color);
 }
 .header-item {
 }
@@ -199,6 +200,8 @@ ul {
 /*portfolio*/
 
 /*-------portfolio-btn-------*/
+.portfolio-section {
+}
 .portfolio-items {
 }
 .btn-portfolio {
@@ -217,6 +220,7 @@ ul {
   background-color: var(--first-btn-color);
 }
 .portfolio-cards {
+  background-color: var(--main-color);
 }
 .cards-item {
   font-weight: 700;
