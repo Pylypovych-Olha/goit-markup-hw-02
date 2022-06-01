@@ -72,8 +72,13 @@ ul {
   letter-spacing: 0.02em;
   color: var(--title-color);
 }
+
 .list-portfolio:hover,
 .list-portfolio:focus {
+  color: var(--active-link-color);
+}
+
+.current {
   color: var(--active-link-color);
 }
 
@@ -219,6 +224,11 @@ ul {
   color: var(--main-color);
   background-color: var(--first-btn-color);
 }
+.portfolio-items .current {
+  color: var(--main-color);
+  background-color: var(--first-btn-color);
+}
+
 .portfolio-cards {
   background-color: var(--main-color);
 }
